@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="PomidoroTracker">
+    <output-path>$PROJECT_DIR$/out/artifacts/PomidoroTracker</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="height" value="300" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="PomidoroTracker" />
+        <option name="vendor" value="vertexpipeline" />
+        <option name="version" value="1.0" />
+        <option name="width" value="300" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="PomidoroTracker.jar">
+        <element id="module-output" name="JavaFXKotlin" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="library" level="project" name="KotlinJavaRuntime" />
+      <element id="library" level="project" name="kotlinx-coroutines-core-0.17" />
+      <element id="library" level="project" name="kotlinx-coroutines-javafx-0.17" />
+    </root>
+  </artifact>
+</component>
